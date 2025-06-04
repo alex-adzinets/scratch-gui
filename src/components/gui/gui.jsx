@@ -96,7 +96,6 @@ const GUIComponent = props => {
         loading,
         logo,
         renderLogin,
-        onClickAbout,
         onClickAccountNav,
         onCloseAccountNav,
         onLogOut,
@@ -239,7 +238,6 @@ const GUIComponent = props => {
                     logo={logo}
                     renderLogin={renderLogin}
                     showComingSoon={showComingSoon}
-                    onClickAbout={onClickAbout}
                     onClickAccountNav={onClickAccountNav}
                     onClickLogo={onClickLogo}
                     onCloseAccountNav={onCloseAccountNav}

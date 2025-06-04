@@ -7,10 +7,6 @@ import GUI from '../containers/gui.jsx';
 import HashParserHOC from '../lib/hash-parser-hoc.jsx';
 import log from '../lib/log.js';
 
-const onClickAbout = () => {
-    alert("EVERYTHING ABOUT IT!")
-};
-
 const onClickLogo = () => {
     window.location = 'https://scratch.mit.edu';
 };
@@ -84,7 +80,6 @@ export default appTarget => {
                 backpackHost={backpackHost}
                 canSave={false}
                 onClickLogo={onClickLogo}
-                onClickAbout={onClickAbout}
             />,
         appTarget);
 };
