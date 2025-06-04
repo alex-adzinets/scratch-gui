@@ -1,0 +1,90 @@
+.helpIcon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+    position: relative;
+    font-family: inherit;
+    padding: 0;
+    overflow: auto;
+}
+
+.backgroundLayer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8B5CF6;
+    border-radius: 50%;
+    width: 91%;
+    height: 91%;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+.helpIcon:not(.disabled):hover .backgroundLayer,
+.helpIcon.hover .backgroundLayer {
+    background-color: #7C3AED;
+    transform: scale(1.05);
+}
+
+.helpIcon:not(.disabled):active .backgroundLayer,
+.helpIcon.active .backgroundLayer {
+    background-color: #6D28D9;
+    transform: scale(0.95);
+}
+
+.helpIcon:not(.disabled):focus,
+.helpIcon.focus {
+    box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.3);
+}
+
+.helpIcon.disabled .backgroundLayer {
+    background-color: #E5E7EB;
+}
+
+.helpIcon.disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.questionMark {
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1;
+    user-select: none;
+    position: absolute;
+    top: 33%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+}
+
+.sizeSmall {
+    width: 24px;
+    height: 24px;
+}
+
+.sizeSmall .questionMark {
+    font-size: 14px;
+}
+
+.sizeMedium {
+    width: 32px;
+    height: 32px;
+}
+
+.sizeMedium .questionMark {
+    font-size: 18px;
+}
+
+.sizeLarge {
+    width: 40px;
+    height: 40px;
+}
+
+.sizeLarge .questionMark {
+    font-size: 22px;
+}
