@@ -1,10 +1,12 @@
-# scratch-gui
+# Scratch GUI
 
 Scratch GUI is a set of React components that comprise the interface for creating and running Scratch 3.0 projects
 
-To open the current build in your browser on Github Pages:
+To open the current build in your browser on Github Pages: https://scratchfoundation.github.io/scratch-gui
 
-https://scratchfoundation.github.io/scratch-gui/
+## Figma 
+
+Generated with Codia: https://www.figma.com/design/J8F2JnunnsKvu1kzZtn9DE/Scratch-GUI
 
 ## Installation
 
@@ -215,9 +217,7 @@ npm install  --no-optional --save-dev react-responsive@^5.0.0
 
 Further reading: [Stack Overflow](https://stackoverflow.com/questions/46602286/npm-requires-a-peer-of-but-all-peers-are-in-package-json-and-node-modules)
 
-## Troubleshooting
-
-If you run into npm install errors, try these steps:
+If you still run into npm install errors, try these steps:
 
 1. run `npm cache clean --force`
 2. Delete the node_modules directory
